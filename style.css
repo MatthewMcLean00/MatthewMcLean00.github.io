@@ -1,31 +1,30 @@
 body{
-	background-color: grey;
-}
-#page{
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1400px;
+	background-color: #ebf9fb;
+	font-family: "Arial";
 }
 #header {
-	background-color: blue;
+	background-color: #45dbfc;
 	color: white;
+	font-size: 200%;
+	font-weight: bold;
 }
 #content{
-	background-color: black;
+	background-color: #45dbfc;
 	padding: 10px;
-	height: 600px;
+	height: 400px;
 }
 #navigation{
-	background-color: red;
+	background-color: #ebf9fb;
 	text-align: left;
-	width: 400px;
+	width: 150px;
+	padding: 10px;
 	float: left;
 }
 #main{
-	background-color: yellow;
-	text-align: right;
-	width: 800px;
+	background-color: #ebf9fb;
+	text-align: left;
+	width: 1250px;
+	padding: 10px;
 	float: right;
 }
 #footer{
