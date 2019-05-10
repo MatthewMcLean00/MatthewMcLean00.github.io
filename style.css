@@ -1,11 +1,11 @@
 body{
-	background-color: #c0dcfb;
-	font-family: "Arial Black";
+	background-image: linear-gradient(#323a90, #5e6cf9);
+	font-family: "Helvetica";
 }
 #header {
-	background-color: #c0dcfb;
 	color: white;
-	font-size: 40px;
+	font-size: 26px;
+	font-family: "Tahoma";
 	font-weight: bold;
 	text-shadow: 2px 2px black;
 	width: 1450px;
@@ -18,7 +18,7 @@ body{
 	width: 1450px;
 }
 #navigation{
-	background-color: #459bfc;
+	background-color: #ececf4;
 	text-align: left;
 	width: 145px;
 	height: 475px;
@@ -26,7 +26,7 @@ body{
 	float: left;
 }
 #main{
-	background-color: #459bfc;
+	background-color: #ececf4;
 	text-align: left;
 	width: 1250px;
 	height: 475px;
