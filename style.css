@@ -1,5 +1,5 @@
 body{
-	background-image: linear-gradient(#323a90, #5e6cf9);
+	background-image: linear-gradient(#4545af, #5e6cf9);
 	font-family: "Helvetica";
 }
 #header {
@@ -24,6 +24,7 @@ body{
 	height: 475px;
 	padding: 10px;
 	float: left;
+	line-height: 1.6;
 }
 #main{
 	background-color: #ececf4;
