@@ -1,36 +1,77 @@
 body{
-	background-color: #ebf9fb;
-	font-family: "Arial";
+	background-color: #c0dcfb;
+	font-family: "Arial Black";
 }
 #header {
-	background-color: #45dbfc;
+	background-color: #c0dcfb;
 	color: white;
 	font-size: 40px;
 	font-weight: bold;
 	text-shadow: 2px 2px black;
+	width: 1450px;
+	height: 150px;
 }
 #content{
-	background-color: #45dbfc;
+	background-color: #064993;
 	padding: 10px;
-	height: 400px;
+	height: 500px;
+	width: 1450px;
 }
 #navigation{
-	background-color: #ebf9fb;
+	background-color: #459bfc;
 	text-align: left;
-	width: 150px;
+	width: 145px;
+	height: 475px;
 	padding: 10px;
 	float: left;
 }
 #main{
-	background-color: #ebf9fb;
+	background-color: #459bfc;
 	text-align: left;
 	width: 1250px;
+	height: 475px;
 	padding: 10px;
 	float: right;
 }
-#table{
-	background-color: #45dbfc;
+#timetable{
+	background-color: #ddebfa;
 	border: 2px solid black;
+	width: 1250px;
+}
+td{
+	vertical-align: top;
+}
+td.chem div{
+	background-color: #23bd0b;
+	height: 63px;
+}
+td.chemlab div{
+	background-color: #23bd0b;
+	height: 150px;
+}
+td.stat div{
+	background-color: #0b80bd;
+	height: 42px;
+}
+td.phil div{
+	background-color: #f55b1c;
+	height: 83px;
+}
+td.seng div{
+	background-color: #f7db1c;
+	height: 42px;
+}
+td.senglab div{
+	background-color: #f7db1c;
+	height: 63px;
+}
+td.csc div{
+	background-color: #e81cf7;
+	height: 63px;
+}
+td.csclab div{
+	background-color: #e81cf7;
+	height: 63px;
 }
 #footer{
 	background-color: white;
