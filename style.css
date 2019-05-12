@@ -4,12 +4,13 @@ body{
 }
 #header {
 	color: white;
+	background-color: #064993;
 	font-size: 26px;
 	font-family: "Tahoma";
 	font-weight: bold;
 	text-shadow: 2px 2px black;
 	width: 1450px;
-	height: 150px;
+	height: 100px;
 }
 #content{
 	background-color: #064993;
