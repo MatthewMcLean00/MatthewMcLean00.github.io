@@ -9,7 +9,7 @@ body{
 	font-family: "Tahoma";
 	font-weight: bold;
 	text-shadow: 2px 2px black;
-	width: 1450px;
+	width: 1470px;
 	height: 100px;
 }
 #content{
@@ -74,6 +74,11 @@ td.csc div{
 td.csclab div{
 	background-color: #e81cf7;
 	height: 63px;
+}
+table.todo_table{
+	font-size: 27px;
+	table-layout: fixed;
+	border-spacing: 27px;
 }
 #footer{
 	background-color: white;
