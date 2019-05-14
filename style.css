@@ -80,6 +80,14 @@ table.todo_table{
 	table-layout: fixed;
 	border-spacing: 27px;
 }
+#tests{
+	float: left;
+	width: 40%;
+	font-size: 21px;
+}
+#assignments{
+	font-size: 21px;
+}
 #footer{
 	background-color: white;
 }
