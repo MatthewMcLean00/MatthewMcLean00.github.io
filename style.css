@@ -1,18 +1,41 @@
 body{
 	font-family: "TW Cen MT";
 	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
 }
 #header {
 	color: white;
 	font-size: 17px;
 	text-align: right;
-	height: 50px;
+	height: 90px;
+	z-index: 999;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	position: fixed;
+	
+}
+#header #links{
+	float: right;
+	background-color: white;
+	opacity: 0.5;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 40px;
+}
+li a{
+	text-decoration: none;
+	color: black;
 }
 #main{
 	text-align: center;
 	font-size: 59px;
 	font-weight: 800;
 	padding: 10px;
+	padding-top: 80px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
