@@ -8,25 +8,21 @@
 
 <body>
 	<div id = "header">
-			<h1>Home Page</h1>
+		<a href = "index.html" style = "text-decoration:none; color:black">Home</a> &nbsp
+		<a href = "courses.html" style = "text-decoration:none; color:black">Courses</a> &nbsp
+		<a href = "todo.html" style = "text-decoration:none; color:black">To-do</a> &nbsp
+		<a href = "tests.html" style = "text-decoration:none; color:black">Important Dates</a> &nbsp
 	</div>
 		
-	<div id = "content">
-		<div id = "navigation">
-			<h3>Navigation</h3>
-			<a href = "index.html" style = "text-decoration:none">Home</a></br>
-			<a href = "courses.html" style = "text-decoration:none">Courses</a></br>
-			<a href = "todo.html" style = "text-decoration:none">To-do</a></br>
-			<a href = "tests.html" style = "text-decoration:none">Important Dates</a></br>
-			<h3>External Links</h3>
-			<a href = "https://www.uvic.ca" style = "text-decoration:none">UVic Site</a></br>
-			<a href = "https://conneX.csc.uvic.ca" style = "text-decoration:none">CSC Site</a></br>
-			<a href = "https://drive.google.com/drive/my-drive" style = "text-decoration:none">Google Drive</a></br>
-		</div>
-		
-		<div id = "main">
-			<h2>Current Timetable</h2>
-			<div id = "timetable">
+	<div id = "main">
+		<img src = "http://www.virsf.ca/wp-content/uploads/2018/04/UVic_Logo_2017.png">
+		<p>Matthew McLean Personal Website</p>
+	</div>
+	
+	
+	<div id = "timetable_box">
+		<h2>&nbspCurrent Timetable</h2>
+		<div id = "timetable">
 			<table style = "width:100%">
 				<thead>
 					<td>Times</td>
@@ -118,12 +114,76 @@
 					<td>4:30</td>
 				</tr>
 			</table>
+		</div>
+	</div>
+	
+	<div id = "courses">
+			<h2 style = "font-size:59px">Currently Enrolled</h2>
+			<h3>SENG 265</h3>
+			<p>Software Development Methods, HST A240</p>
+			<h3>CSC 230</h3>
+			<p>Intro to Computer Architecture, ECS 125</p>
+			<h3>STAT 260</h3>
+			<p>Intro to Probability and Statistics, DTB A120</p>
+			<h3>CHEM 101</h3>
+			<p>Fundamentals of Chemistry from Atoms to Materials, Elliott 167</p>
+			<h3 style = "color: red">Waitlist: </h3><h3>EPHE 155</h3>
+			<p>Intro to Nutrition: Concepts and Controversies, McKinnon 150</p>
+	</div>
+	
+	<div id = "todo">
+			<h2 style = "text-align:center; font-size:59px">To-do List</h2>
+			<table class = "todo_table" style = "width:100%">
+				<thead>
+					<th>SENG 265</th>
+					<th>CSC 230</th>
+					<th>STAT 260</th>
+					<th>CHEM 101</th>
+					<th>EPHE 155</th>
+				</thead>
+				<tr>
+					<td>Finish notes from last lecture</td>
+					<td>Finish notes from last lecture</td>
+					<td>Review sets 1 through 3</td>
+					<td>Review chapters 3 and 4</td>
+					<td style = "color:red">Waitlisted</td>
+				</tr>
+				<tr>
+					<td>Look into getting VirtualBox so I can run UNIX at home</td>
+					<td>Practice converting between number systems</td>
+					<td>Continue to read textbook</td>
+					<td>Go over assignment answers, checking with old notes</td>
+				</tr>
+			</table>
+	</div>
+	
+	<h2 class = "dates_head">Important Dates</h2>
+	<div id = "dates">
+			<div id = "tests">
+				<h2 style = "font-size:49px">Midterms</h2>
+				<p><b>June 3: </b>CHEM 101 Midterm 1</p>
+				<p><b>June 5: </b>STAT 260 Midterm 1</p>
+				<p><b>June 17: </b>CSC 230 Midterm</p>
+				<p><b>June 18: </b>SENG 265 Midterm</p>
+				<p><b>July 10: </b>STAT 260 Midterm 2</p>
+				<p><b>July 15: </b>CHEM 101 Midterm 2</p>
+				<p><b>July 31: </b>STAT 260 Midterm 3</p>
+			</div>
+			<div id = "assignments">
+				<h2 style = "font-size:49px">Big Assignments</h2>
+				<p><b>June 6: </b>CSC 230 Assignment 1</p>
+				<p><b>June 11: </b>SENG 265 Assignment 1</p>
+				<p><b>June 24: </b>CSC 230 Assignment 2</p>
+				<p><b>June 28: </b>SENG 265 Assignment 2</p>
+				<p><b>July 8: </b>CSC 230 Assignment 3</p>
+				<p><b>July 17: </b>SENG 265 Assignment 3</p>
+				<p><b>July 22: </b>CSC 230 Assignment 4</p>
+				<p><b>July 30: </b>SENG 265 Assignment 4</p>
 			</div>
 		</div>
-		</div>
-		
-		<div id = "footer">
-		</div>
+	
+	<div id = "footer">
+	</div>
 
 </body>
 </html>
