@@ -6,7 +6,6 @@ body{
 	color: white;
 	font-size: 17px;
 	text-align: right;
-	width: 1500px;
 	height: 50px;
 }
 #main{
@@ -17,20 +16,20 @@ body{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
 	height: 700px;
 }
 #timetable_box{
 	font-size: 49px;
+	width: 100%;
 	height: 850px;
 }
 #timetable{
 	font-size: 27px;
-	width: 1400px;
 	background-color: #e9f0f0;
 	/*border: 2px solid black;*/
 	margin-left: auto;
 	margin-right: auto;
+	width: 90%;
 }
 #courses{
 	height: 900px;
@@ -90,14 +89,16 @@ table.todo_table{
 }
 h2.dates_head{
 	font-size: 59px;
-	padding-left: 40px;
-	padding-top: 40px;
+	margin-left: 4%;
+	margin-top: 10%;
 }
 #tests{
 	float: left;
 	width: 40%;
 }
 #assignments{
+	float: right;
+	width: 40%;
 }
 #footer{
 	background-color: white;
