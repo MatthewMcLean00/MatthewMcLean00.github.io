@@ -55,7 +55,7 @@ li a{
 	width: 90%;
 }
 #courses{
-	height: 900px;
+	height: 800px;
 	padding: 60px;
 }
 #todo{
@@ -112,8 +112,6 @@ table.todo_table{
 }
 h2.dates_head{
 	font-size: 59px;
-	margin-left: 4%;
-	margin-top: 10%;
 }
 #tests{
 	float: left;
