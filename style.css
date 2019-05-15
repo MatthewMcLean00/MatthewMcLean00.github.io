@@ -108,6 +108,7 @@ td.csclab div{
 table.todo_table{
 	font-size: 27px;
 	table-layout: fixed;
+	text-align: left;
 	border-spacing: 27px;
 }
 h2.dates_head{
