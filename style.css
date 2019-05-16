@@ -15,6 +15,9 @@ body{
 	width: 100%;
 	position: fixed;
 }
+img.pic{
+	border-radius: 100px;
+}
 #header #links{
 	float: right;
 	background-color: white;
@@ -52,6 +55,7 @@ li a{
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
+	border-radius: 7px;
 }
 #courses{
 	height: 800px;
@@ -75,34 +79,42 @@ th, td{
 td.chem div{
 	background-color: #23bd0b;
 	height: 63px;
+	border-radius: 7px;
 }
 td.chemlab div{
 	background-color: #23bd0b;
 	height: 150px;
+	border-radius: 7px;
 }
 td.stat div{
 	background-color: #0b80bd;
 	height: 42px;
+	border-radius: 7px;
 }
 td.phil div{
 	background-color: #f55b1c;
 	height: 83px;
+	border-radius: 7px;
 }
 td.seng div{
 	background-color: #f7db1c;
 	height: 42px;
+	border-radius: 7px;
 }
 td.senglab div{
 	background-color: #f7db1c;
 	height: 63px;
+	border-radius: 7px;
 }
 td.csc div{
 	background-color: #e81cf7;
 	height: 63px;
+	border-radius: 7px;
 }
 td.csclab div{
 	background-color: #e81cf7;
 	height: 63px;
+	border-radius: 7px;
 }
 table.todo_table{
 	font-size: 27px;
