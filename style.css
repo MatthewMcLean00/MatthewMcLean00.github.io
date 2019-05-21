@@ -59,7 +59,10 @@ li a{
 }
 #courses{
 	height: 700px;
-	padding: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+	padding-top: 20px;
 }
 #todo{
 	background-color: #e9f0f0;
@@ -67,7 +70,7 @@ li a{
 	padding: 60px;
 }
 #dates{
-	height: 500px;
+	height: 600px;
 	text-align: left;
 	padding: 60px;
 	
@@ -128,12 +131,12 @@ h2.dates_head{
 #tests{
 	float: left;
 	width: 40%;
-	font-size: 25px;
+	font-size: 23px;
 }
 #assignments{
 	float: right;
 	width: 40%;
-	font-size: 25px;
+	font-size: 23px;
 }
 #footer{
 	text-align: right;
