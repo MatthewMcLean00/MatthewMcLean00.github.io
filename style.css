@@ -74,15 +74,15 @@ li a{
 	background-image: url("tiles.jpg");
 	background-size: cover;
 	/*background-color: #e9f0f0;*/
-	height: 600px;
+	height: 630px;
 	padding: 60px;
 }
 #dates{
 	background-size: cover;
 	background-image: url("popcorn.jpg");
-	height: 700px;
+	height: 730px;
 	text-align: left;
-	padding: 60px;
+	padding: 20px;
 	
 }
 th, td{
