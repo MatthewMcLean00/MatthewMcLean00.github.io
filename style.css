@@ -18,7 +18,7 @@ body{
 }
 img.pic{
 	border-radius: 100px;
-	border: 1px solid black
+	border: 1px solid black;
 }
 #header #links{
 	float: right;
@@ -54,12 +54,13 @@ li a{
 }
 #timetable{
 	font-size: 27px;
-	/*background-color: #e9f0f0;*/
+	background-color: white;
 	/*border: 2px solid black;*/
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
 	border-radius: 7px;
+	border: 1px solid black;
 }
 #courses{
 	background-image: url(wood.jpg);
@@ -80,7 +81,7 @@ li a{
 #dates{
 	background-size: cover;
 	background-image: url("popcorn.jpg");
-	height: 730px;
+	height: 770px;
 	text-align: left;
 	padding: 20px;
 	
