@@ -50,9 +50,9 @@ li a{
 #timetable_box{
 	font-size: 49px;
 	width: 100%;
-	color: black;
+	color: white;
 	height: 850px;
-	background-image: url("clouds.jpg");
+	background-image: url("wood3.jpg");
 	background-size: cover;
 }
 #timetable{
@@ -76,10 +76,11 @@ li a{
 	padding-top: 20px;
 }
 #todo{
-	background-image: url("tiles.jpg");
+	background-image: url("bricks.jpg");
 	background-size: cover;
 	/*background-color: #e9f0f0;*/
 	height: 630px;
+	color: black;
 	padding: 60px;
 }
 #dates{
