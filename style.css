@@ -45,6 +45,9 @@ li a{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	color: black;
+	background-image: url("plant.jpg");
+	background-size: cover;
 	height: 700px;
 }
 #timetable_box{
@@ -52,7 +55,7 @@ li a{
 	width: 100%;
 	color: white;
 	height: 850px;
-	background-image: url("wood3.jpg");
+	/*background-image: url("dramatic.jpg");*/
 	background-size: cover;
 }
 #timetable{
@@ -68,8 +71,9 @@ li a{
 	border: 1px solid black;
 }
 #courses{
-	/*background-image: url(wood.jpg);*/
+	background-image: url("marble.jpg");
 	background-size: cover;
+	color: black;
 	height: 700px;
 	padding-left: 60px;
 	padding-right: 60px;
@@ -77,16 +81,17 @@ li a{
 	padding-top: 20px;
 }
 #todo{
-	background-image: url("bricks.jpg");
+	/*background-image: url("nacho.jpg");*/
 	background-size: cover;
 	/*background-color: #e9f0f0;*/
 	height: 630px;
-	color: black;
+	color: white;
 	padding: 60px;
 }
 #dates{
 	background-size: cover;
-	/*background-image: url("popcorn.jpg");*/
+	background-image: url("plant2.jpg");
+	color: black;
 	height: 770px;
 	text-align: left;
 	padding: 20px;
