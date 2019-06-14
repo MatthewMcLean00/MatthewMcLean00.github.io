@@ -3,7 +3,9 @@ body{
 	font-size: 30px;
 	margin: 0px;
 	padding: 0px;
-	background-image: url("wood4.jpg");
+	color: white;
+	/*background-image: url("wood4.jpg");*/
+	background-color: black;
 }
 #header { /*"http://www.virsf.ca/wp-content/uploads/2018/04/UVic_Logo_2017.png"*/
 	color: white;
@@ -48,12 +50,14 @@ li a{
 #timetable_box{
 	font-size: 49px;
 	width: 100%;
+	color: black;
 	height: 850px;
 	background-image: url("clouds.jpg");
 	background-size: cover;
 }
 #timetable{
 	font-size: 27px;
+	color: black;
 	background-color: white;
 	/*border: 2px solid black;*/
 	margin-left: auto;
@@ -63,7 +67,7 @@ li a{
 	border: 1px solid black;
 }
 #courses{
-	background-image: url(wood.jpg);
+	/*background-image: url(wood.jpg);*/
 	background-size: cover;
 	height: 700px;
 	padding-left: 60px;
@@ -80,7 +84,7 @@ li a{
 }
 #dates{
 	background-size: cover;
-	background-image: url("popcorn.jpg");
+	/*background-image: url("popcorn.jpg");*/
 	height: 770px;
 	text-align: left;
 	padding: 20px;
